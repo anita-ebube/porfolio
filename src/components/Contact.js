@@ -55,13 +55,13 @@ function Contact() {
 
           <div className='flex justify-start mt-5 mb-8'>
             <button type='submit'
-              className='px-[1.6em] py-[.8em] bg-[#ec6e59] coursor-pointer rounded-[4px] flex justify-start items-center gap-1 border-[#ec6e59] border-2 lg:text-[.8rem] sm:text-[.8rem]'>Send</button>
+              className='px-[1.6em] py-[.8em] bg-[#800080] coursor-pointer rounded-[4px] flex justify-start items-center gap-1 border-[#800080] border-2 lg:text-[.8rem] sm:text-[.8rem] text-white'>Send</button>
           </div>
         </form>
       </div>
 
-      <div className='flex justify-center items-center font-[350] text-[0.6rem] leading-loose sm:text-[1rem]  tm:text-[1rem]'> Copyright © 2023
-        <span className='font-[500]'>&nbsp;Rimsha&nbsp; </span>
+      <div className='flex justify-center items-center font-[350] text-[0.6rem] leading-loose sm:text-[1rem]  tm:text-[1rem]'> Copyright © 2024
+        <span className='font-[500]'>&nbsp;Anita&nbsp; </span>
 
         All Rights Reserved
 

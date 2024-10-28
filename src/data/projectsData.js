@@ -1,15 +1,10 @@
 
-import RestCountries from "./../assets/portfolioImages/restcountries.jpg";
-import SpaceTourism from "./../assets/portfolioImages/spacetourism.jpg";
-import Advice from "./../assets/portfolioImages/advice.jpg";
-import Page from "./../assets/portfolioImages/intropage.jpg";
-// import AWS from "./../assets/portfolioImages/s3.PNG";
-import Todo from "./../assets/portfolioImages/todo.jpg"
+import Meme from "./../assets/portfolioImages/meme.jpg";
+import LinkedIn from "./../assets/portfolioImages/linkedin.jpg";
+import EasyBank from "./../assets/portfolioImages/banking.jpg";
+import Youtube from "./../assets/portfolioImages/youtube.jpg";
+import Quiz from "./../assets/portfolioImages/quiz.jpg"
 import Vanlife from "./../assets/portfolioImages/vanlife.png"
-
-// in progress projects
-
-import Servista from './../assets/portfolioImages/servista.png'
 import landingPage from './../assets/portfolioImages/url.jpg'
 
 const ProjectsData = [
@@ -24,78 +19,56 @@ const ProjectsData = [
       "SPA (Single Page Application) to rent a van for a road trip with 10+ routes. I have built it with ReactJS, React Router 6, miragejs and CSS for styling. It has a responsive design and navigation.",
   },
   {
-    id: "fyp",
-    img: Servista,
-    name: "Service Provider Application",
-    stack: ["< RESTful API />", "< Bootstrap v5 />", "< React.js />"],
-    live: "https://www.canva.com/design/DAFoa-GrVg4/6wEhj_I__-QaLI1uQbnzsA/watch?utm_content=DAFoa-GrVg4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
-    source: "https://servista.vercel.app/",
+    id: "meme",
+    img: Meme,
+    name: "Meme Generator",
+    stack: ["< RESTful API />", "< React.js />"],
+    live: "https://meme-generator-nu-liart.vercel.app/",
+    source: "https://github.com/anita-ebube/meme-generator",
     description:
       "A cross-platform app that connects local service providers with customers. As a full stack developer, I contributed to the development of the app using Flutter, Node.js, Express.js, Next.js and MongoDB. I also worked on the design of the app using Figma. The mobile app is currently in the testing phase and will be launched soon. Web app's frontend is also completed.",
   },
   {
-    id: "rest-countries",
-    img: RestCountries,
-    name: "REST Countires API",
-    stack: ["< RESTful API />", "< Bootstrap v5 />", "< React.js />"],
-    live: "https://rest-countries-api-rimshub.vercel.app/",
-    source: "https://github.com/rimshub/rest-countries-api",
+    id: "linkedin",
+    img: LinkedIn,
+    name: "LinkedIn Clone",
+    stack: ["< RESTful API />", "< Tailwind CSS />", "< React.js />"],
+    live: "https://linkedin-clone-psi-henna.vercel.app/",
+    source: "https://github.com/anita-ebube/linedin-clone",
     description:
       "Responsive website which integrates with the REST Countries API to pull country data. You can view the list of all countries and find one via search or by filtering regions. Individual country page, enables you to see further details about the country like border countries. Mobile first workflow and Bootstrap v5 is used to make it responsive.",
   },
 
   {
-    id: "space-tourism",
-    img: SpaceTourism,
-    name: "Space Tourism Website",
+    id: "digital Banking",
+    img: EasyBank,
+    name: "Easy Banking",
     stack: ["< React.js />", "< CSS3 />"],
-    live: "https://react-space-tourism-website-alpha.vercel.app/",
-    source: "https://github.com/rimshub/react-space-tourism-website",
+    live: "https://easybank-cyan-psi.vercel.app/",
+    source: "https://github.com/anita-ebube/Easybank",
     description:
       "Multi-page space tourism website provides relevent information for users. It has a responsive design and navigation. A large and complex project that required me to plan ahead and break down the work into smaller chunks. I used React.js to build the website and CSS3 for styling.",
 
   },
-  // {
-  //   id: "cloud-storage",
-  //   img: AWS,
-  //   name: "Cloud Storage with AWS Simple Storage Service",
-  //   stack: ["< AWS S3 /> " , "< JavaScript /> " , "< Express.js />"],
-  //   live: "",
-  //   source: "https://github.com/rimshub/cloud-storage-s3",
-  //   description:  
-  //       "This challenge from frontendmentor tested my skills to create dropdown navigation menus, a common pattern on larger sites. It also has some nice basic layout challenge",
-  // },
 
   {
-    id: "advice-generator",
-    img: Advice,
-    name: "Advice Generator App",
-    stack: ["< HTML5 />", "< CSS3 />", "< JavaScript />"],
-    live: "https://rimshub.github.io/javascript-advice-generator/",
-    source: "https://github.com/rimshub/javascript-advice-generator",
+    id: "Youtube",
+    img: Youtube,
+    name: "Youtube Clone",
+    stack: ["< React.js />", "< Tailwind CSS />", "< RESTful API />"],
+    live: "https://youtube-clone-nine-pi.vercel.app/",
+    source: "https://github.com/anita-ebube/youtube-clone",
     description:
       "This advice generator app using the Advice Slip API. A small and fun app to practice JavaScript and mobile first workflow and CSS3. It has a responsive design and navigation.",
   },
 
-
   {
-    id: "todo",
-    img: Todo,
-    name: "JavaScript Todo App",
-    stack: ["< JavaScript />  ", "< Sass />"],
-    live: "https://rimshub.github.io/JavaScript-Todo-App/",
-    source: "https://github.com/rimshub/JavaScript-Todo-App",
-    description:
-      "Responsive JS todo app with color theme switcher. Enables users to add, delete, filter, and clear day-to-day tasks. It has user-friendly interface and navigation. I was able to practice my JavaScript and Sass skills in this project.",
-  },
-
-  {
-    id: "dropdown-nav",
-    img: Page,
-    name: "Homepage with dropdown navigation / Figma to React",
-    stack: ["< React.js />   ", "< CSS3 />"],
-    live: "https://rimshub.github.io/figma-design-to-reactjs/",
-    source: "https://github.com/rimshub/figma-design-to-reactjs",
+    id: "Quiz",
+    img: Quiz,
+    name: "Quiz Generator App",
+    stack: ["< React.js />", "< Tailwind CSS />", "< RESTful API />"],
+    live: "https://quiz-omega-sage-95.vercel.app/",
+    source: "https://github.com/anita-ebube/Quiz",
     description:
       "This challenge from frontendmentor tested my skills to create dropdown navigation menus, a common pattern on larger sites. It also has some nice basic layout challenge. As a front-end developer, I was able to practice my React.js and CSS3 skills in this project.",
   },
